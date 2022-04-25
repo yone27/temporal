@@ -1,0 +1,70 @@
+* colocar edad en cv
+* multicentro empresarial
+
+-------- PHP 
+* manejo de arreglos
+* dump(var)
+* concatenacion
+* cookies
+* nr_get_content
+* expresiones regulares
+
+rating = clasificaion, 
+ean: Universal Product Code (Código Universal de Producto)
+ref o mpn de productos
+
+Funciones
++ json_decode
++ parse_url
++ str_replace (remplazar partesd de cadenas de texto)
+	// Provides: Hll Wrld f PHP
+	$vowels = array("a", "e", "i", "o", "u", "A", "E", "I", "O", "U");
+	$onlyconsonants = str_replace($vowels, "", "Hello World of PHP");
++ substr_count (cuantas vences se repite una cadena)
+	$text = 'This is a test';
+	echo substr_count($text, 'is'); // 2
++ count || count($a) (cuenta las posiciones de un arr)
++ str_pos
+	Find the position of the first occurrence of a substring in a string
+	$mystring = 'abc';
+	$findme   = 'a';
+	$pos = strpos($mystring, $findme);
++ trim
+	trim($string, $charlist)
++ is_numeric
+	is_numeric(variable);
+
++ array_search
+	array_search — Searches the array for a given value and returns 
+	the first corresponding key if successful
+	$array = array(0 => 'blue', 1 => 'red', 2 => 'green', 3 => 'red');
+
+	$key = array_search('green', $array); // $key = 2;
+
++ array_keys 
+	Return all the keys or a subset of the keys of an array
+
++ array_pop
+	array_pop — Pop the element off the end of array
+	$stack = array("orange", "banana", "apple", "raspberry");
+	$fruit = array_shift($stack);
+
++ array_shift
+	array_shift — Shift an element off the beginning of array
+	$stack = array("orange", "banana", "apple", "raspberry");
+	$fruit = array_shift($stack);
+
++ unset
+	unset — Unset a given variable
+	unset($foo);
++ time
+	time — Return current Unix timestamp
+
++ switch (done)
++strtr()
+	echo strtr('Jairo', 'i', '1'); //devuelve Ja1ro
+	$numeros = ['i' => '1', 'o' => '0'];
+	echo strtr("Jairo", $numeros); //devuelve Ja1r0
+
+
+forearch, while, for
